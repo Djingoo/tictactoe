@@ -74,7 +74,7 @@ pip install -r requirements.txt
 ## Utilisation
 
 ```bash
-python main.py
+python src/main.py
 ```
 
 ## Lancement des tests
