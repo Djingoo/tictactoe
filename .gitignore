@@ -1,0 +1,21 @@
+# Python - Fichiers compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnement virtuel
+venv/
+env/
+ENV/
+
+# Configuration d'IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Distribution / Packages (si jamais tu build ton projet)
+dist/
+build/
+*.egg-info/
+
+# Divers
+.DS_Store
