@@ -8,7 +8,7 @@ def main():
     Main function to start the Tic-Tac-Toe game.
     """
     board = Board(3)
-    rules = Rules(3, 3)
+    rules = Rules(3)
     game = GameUI(board, rules)
     
     game.run()

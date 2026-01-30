@@ -5,7 +5,7 @@ class Rules:
     Class that handles game rules and stop a game if someone won.
     """
 
-    def __init__(self, board_size = 3, nb_piece_to_win = 3):
+    def __init__(self, nb_piece_to_win = 3):
         """
         Initialise game rules.
 
@@ -13,7 +13,6 @@ class Rules:
             board size: Size of the board (to verify who won)
             nb_piece_to_win: Number of pieces needed to win
         """
-        self.board_size = board_size
         self.nb_piece_to_win = nb_piece_to_win
 
     def check_rows(self, board):
